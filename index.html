@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>MongoDB Example</title>
+</head>
+<body>
+<h1>MongoDB Example</h1>
+<form action="/add" method="POST">
+    <h2>Додати нову згадку</h2>
+    <label for="name">Ім'я:</label>
+    <input type="text" id="name" name="name" required><br>
+    <label for="age">Вік:</label>
+    <input type="number" id="age" name="age" required><br>
+    <label for="comment">Коментар:</label>
+    <input type="text" id="comment" name="comment" required><br>
+    <button type="submit">Додати згадку</button>
+</form>
+<hr>
+<h2>Перегляд усіх згадок</h2>
+<a href="/mentions">Переглянути всі згадки</a>
+</body>
+</html>
