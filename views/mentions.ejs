@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Згадки</title>
+</head>
+<body>
+<h1>Усі згадки</h1>
+<ul>
+    <% mentions.forEach(m => { %>
+        <li><strong><%= m.name %></strong>, <%= m.age %> років — <%= m.comment %></li>
+    <% }) %>
+</ul>
+<a href="/">Назад на головну</a>
+</body>
+</html>
