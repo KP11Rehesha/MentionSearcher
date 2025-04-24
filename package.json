@@ -1,0 +1,25 @@
+{
+  "name": "mongotest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^6.15.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KP11Rehesha/MentionSearcher.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KP11Rehesha/MentionSearcher/issues"
+  },
+  "homepage": "https://github.com/KP11Rehesha/MentionSearcher#readme",
+  "description": ""
+}
